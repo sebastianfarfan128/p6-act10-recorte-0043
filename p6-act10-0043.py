@@ -54,7 +54,7 @@ cv2.destroyAllWindows()
 # 5. TRESHOLDING
 # ==========================================
 print("Mostrando: Thresholding")
-# Carga la imagen 'Baguetteto.jpg' en escala de grises
+# Carga la imagen 'conejete.jpg' en escala de grises
 img_thresh_input = cv2.imread('conejete.jpg', 0)
 
 if img_thresh_input is not None:
